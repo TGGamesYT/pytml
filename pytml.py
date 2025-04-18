@@ -56,4 +56,4 @@ def call_python(button_id):
     return "OK"
 
 def run_app(port=5001):
-    app.run(port=port)
+    app.run(host='0.0.0.0', port=port)
